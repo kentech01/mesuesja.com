@@ -1067,6 +1067,7 @@ h3, h4, h5, h6 {
     border: 2px solid #1e3a8a;
     cursor: pointer;
     transition: transform 0.3s ease;
+    text-decoration: none;
 }
 
 .social-link:hover {
@@ -1182,9 +1183,30 @@ h3, h4, h5, h6 {
     gap: 1rem;
 }
 
+.footer-copyright-section {
+    text-align: center;
+}
+
 .footer-copyright {
     color: #bfdbfe;
     font-family: 'Nunito', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.footer-built-by {
+    color: #bfdbfe;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.875rem;
+}
+
+.footer-thrio-link {
+    color: #f9a8d4;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-thrio-link:hover {
+    color: #fbcfe8;
 }
 
 .footer-social {
@@ -1202,6 +1224,8 @@ h3, h4, h5, h6 {
     justify-content: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
 }
 
 .footer-social-link:hover {
@@ -1244,6 +1268,11 @@ h3, h4, h5, h6 {
     .footer-bottom {
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-copyright-section {
+        text-align: left;
     }
 }
 
